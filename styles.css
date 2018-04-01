@@ -1,0 +1,101 @@
+body {
+  font: 13px Arial, sans-serif;
+  max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+table {
+  display: block;
+  align-items: stretch;
+  width: 20px;
+  height: 20px;
+}
+
+tr {
+  background-color: black;
+  width: stretch;
+  height: stretch;
+}
+
+.left {
+  float: left;
+  display: inline-block;
+}
+
+.right {
+  float: right;
+  display: inline-block;
+}
+
+.apps {
+
+}
+
+.account {
+  background-color: #0073e6;
+  border-radius: 2px;
+  color: white;
+  padding: 9px 15px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  text-shadow: .5px .5px white;
+}
+
+.header {
+  postion: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.center {
+  position: fixed;
+  top: 125px;
+  bottom: 200px;
+  margin: auto;
+  width: 100%;
+  height: 75px;
+  padding: 25px;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #F4F4F4;
+}
+
+#search_bar {
+  margin: 25px;
+  width: 550px;
+  height: 40px;
+  text-align: left;
+  font: 20px Arial, sans-serif;
+}
+
+#search_button {
+  margin: 0;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font: 15px Arial, sans-serif;
+  background-color: #F4F4F4;
+  text-decoration: none;
+}
